@@ -1,0 +1,188 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  font-size: 0.8em;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+#block-mainnavigation li {
+  font-family: 'Rubik Mono One', cursive;
+  font-size: 1em;
+  display: inline;
+  margin: 0;
+  list-style-type: none;
+  list-style-position: inside;
+  display: block;
+  flex-grow: 1;
+  position: relative;
+}
+h1,h2, h3 {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+  font-size: 1em;
+}
+.titel a {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: white;
+  font-size: 1.6em;
+}
+
+#block-mainnavigation a {
+  color: white;
+}
+#block-mainnavigation a.is-active {
+  color: black;
+}
+
+
+p {
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+  text-align: justify;
+}
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+}
+
+
+a {
+  text-decoration: none;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1.6em;
+  color: white;
+}
+
+.item {
+  border: 4px;
+  border-color: white;
+  border-style: dashed;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: solid 2px;
+  color: white;
+}
+h1.page-title {
+  color: black;
+  text-align: left;
+}
+.entering a {
+  color: black;
+  text-align: left;
+}
+.break {
+  height: 20px;
+  background-color: transparent;
+  display: block;
+}
+/* styling für PROGRAMM PUNKTE */
+.date time {
+  display: inline;
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1.4em;
+}
+
+/*styling für PROGRAMM ÜBERSICHT */
+.programmpunkt a {
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1.6em;
+}
+.datum {
+  display: inline;
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1.4em;
+}
+.corps a {
+  display: inline;
+  color: black;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1.2em;
+}
+.corps p {
+  padding: 4%;
+  text-align: left;
+}
+
+.programmtitel a {
+  color: white;
+}
+.entering {
+  padding: 2%;
+  color: black;
+  background-color: white;
+  opacity: 0.8;
+}
+.entering span {
+  padding: 2%;
+  display: block;
+}
+
+/* styling für Artist Text */
+.english p, .english h2 {
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+}
+
+.artistlink {
+  color: white;
+  text-align: left;
+  background-color: transparent;
+  font-size: 1em;
+}
+
+/* MEDIA QUERY BIGGER TEXT */
+@media all and (min-width: 700px) {
+body {
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.0em;
+  line-height: 1.6em;
+  font-weight: 400;
+}
+
+#block-mainnavigation li {
+  font-family: 'Rubik Mono One', cursive;
+  font-size: 1.2em;
+  display: inline;
+  margin: 0;
+  list-style-type: none;
+  list-style-position: inside;
+  display: block;
+  flex-grow: 1;
+  position: relative;
+}
+h1,h2, h3 {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+  font-size: 1.4em;
+}
+.titel a {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: white;
+  font-size: 1.6em;
+}
+
+}

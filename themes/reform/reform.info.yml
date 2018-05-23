@@ -1,0 +1,12 @@
+name: reform
+type: theme
+description: 'a real simple theme for Drupal 8'
+core: 8.x
+base theme: false
+libraries:
+  - reform/global-styling
+regions:
+  header: Header
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

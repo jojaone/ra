@@ -1,0 +1,199 @@
+html {
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+/* background image */
+.canvas{
+  overflow: hidden !important;
+  width: 110%;
+  height: auto;
+  position: fixed;
+  left: -5%;
+  z-index: -1000;
+  top: -300px;
+}
+/* klasse für header (logo und hauptmenu */
+.fix {
+  z-index: 5000;
+}
+.background img {
+  width: 100%;
+  height: auto;
+  z-index: -1000;
+  padding: 0;
+  margin: 0;
+  border:0;
+  float:left;
+}
+.board, .background {
+  border: 0;
+  float: left;
+  width: 100%;
+}
+
+/* main MENU */
+
+
+#block-mainnavigation li.opener {
+  text-align: left;
+}
+#block-mainnavigation li.closer {
+  text-align: right;
+}
+
+#block-mainnavigation ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+/* PROGRAMM PUNKTE */
+.banner img {
+  width: 100%;
+  height: auto;
+}
+.date {
+  position: relative;
+  top: 100px;
+  font-size: 0.7em;
+}
+.titel {
+  position: relative;
+  top: 100px;
+}
+.hide {
+  display: none !important;
+}
+.past img {
+  filter: grayscale(100%);
+}
+.program img {
+  width: 100%;
+  height: auto;
+}
+/* FRONT view*/
+.container .unformatted {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  grid-column-gap: 10px;
+}
+.item  img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.ruler {
+  width: 100%;
+}
+
+
+.wappen {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#block-views-block-button * {
+  text-align: center;
+  display: inline;
+  margin: auto auto;
+}
+.button {
+  display: inline;
+  text-align: center;
+  padding: 2%;
+}
+.button img {
+  display: inline;
+  height: 50px;
+  width: auto;
+  text-align: center;
+  padding: 2%;
+}
+
+
+
+.unformatted {
+  width: 100%;
+}
+
+.gallery ul li{
+  display: inline;
+}
+
+.artist .portrait img {
+  width: 100%;
+  height: auto;
+}
+
+/*Programmpunkte */
+.programmtitel {
+  position: relative;
+  top: -100px;
+}
+
+
+/* FOOTER view*/
+
+
+
+@media all and (min-width: 560px) {
+html {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#block-views-block-button * {
+  text-align: center;
+  display: inline;
+  margin: auto auto;
+}
+.button img {
+  display: inline;
+  height: 65px;
+  width: auto;
+  text-align: center;
+  padding: 3%;
+}
+/*Programmpunkte */
+.programmtitel {
+  position: relative;
+  top: -200px;
+}
+
+}
+@media all and (min-width: 920px) {
+html {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#block-views-block-button .button {
+  width: 100%;
+  text-align: center;
+  display: inline;
+  margin: 0 auto;
+}
+.button img {
+  display: inline;
+  height: 70px;
+  width: auto;
+  text-align: center;
+  padding: 2%;
+}
+
+
+}

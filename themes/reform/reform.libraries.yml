@@ -1,0 +1,16 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/reform.css: {}
+      css/layout.css: {}
+      https://fonts.googleapis.com/css?family=Rubik+Mono+One|Cairo:400: { type: external }
+
+  js:
+    js/reform.js: { scope: header }
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
